@@ -1,0 +1,3 @@
+it doesn't make any sense to use inheritance relationship because
+ circle inherit computeHeight method which is not useful for circle class 
+ also it inherits setHeigth  method which will affect circle  since circle has no height

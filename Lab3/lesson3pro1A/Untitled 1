@@ -1,0 +1,8 @@
+        Person p1 = new PersonWithJob("Joe", 30000);
+		Person p2 = new Person("Joe");
+		
+		System.out.println("p1.equals(p2)? " + p1.equals(p2));--> false
+		because person is not instance of personWithJob and also personWithJob equal method compares name and salary
+		System.out.println("p2.equals(p1)? " + p2.equals(p1));--> true
+		because perosnWithJob is instance of person and the person equal method only compare the name 
+		
